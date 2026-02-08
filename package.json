@@ -1,0 +1,21 @@
+{
+  "name": "cf_ai_security_analyst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260207.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.63.0"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.26",
+    "hono": "^4.11.9"
+  }
+}
